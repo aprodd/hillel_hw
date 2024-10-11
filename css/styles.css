@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    padding: 12px 0 24px 0;
+}
+
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+header img {
+    display: block;
+    margin: 30px auto;
+}
+
+a {
+    display: block;
+    font-size: 15px;
+    color: rgba(152, 162, 179, 1);
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 43px;
+}
+
+header p {
+    font-size: 15px;
+    margin-top: 8px;
+    line-height: 24px;
+    color: rgba(102, 112, 133, 1);
+}
+
+table {
+    width: 100%;
+    margin-top: 48px;
+}
+
+tr {
+    height: 56px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #ccc;
+}
+
+.wd70 {
+width: 70%;
+}
+
+.wd10 {
+    width: 10%;
+}
+
+.wd20 {
+    width: 20%;
+}
+
+.text_left {
+    color: rgba(102, 112, 133, 1);
+    text-align: left;
+}
+
+.semibold {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+thead {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+    color: rgba(16, 24, 40, 1);
+}
+
+tbody {
+    font-size: 15px;
+    color: rgba(16, 24, 40, 1);
+    text-align: right;
+}
+
+footer thead {
+    text-align: left;
+}
+
+footer th {
+    border: none;
+}
+
+footer td {
+    border: none;
+}
+
+footer tr {
+    height: 24px;
+}
+
+footer thead {
+    text-align: left;
+}
+
+footer tbody {
+    text-align: left;
+}
+
+footer h2 {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(16, 24, 40, 1);
+}
+
+footer p {
+    margin-top: 4px;
+    font-size: 15px;
+    color: rgba(102, 112, 133, 1);
+}
+
+footer address {
+    margin-top: 4px;
+    font-size: 15px;
+    color: rgba(102, 112, 133, 1);
+    text-align: right;
+    font-style: normal;
+}
