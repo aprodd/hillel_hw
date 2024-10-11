@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>ACME</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Inter", sans-serif;
+            padding: 12px 0 24px 0;
+        }
+        div {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        header img {
+            display: block;
+            margin: 30px auto;
+        }
+        span {
+            display: block;
+            font-size: 15px;
+            color: rgba(152, 162, 179, 1);
+            text-align: center;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-top: 43px;
+        }
+        header p {
+            font-size: 15px;
+            margin-top: 8px;
+            line-height: 24px;
+            color: rgba(102, 112, 133, 1);
+        }
+        table {
+            width: 100%;
+            margin-top: 48px;
+        }
+        tr {
+            height: 56px;
+        }
+        th, td {
+            border-bottom: 1px solid #ccc;
+        }
+        thead {
+            font-size: 16px;
+            font-weight: 600;
+            text-align: right;
+            color:rgba(16, 24, 40, 1);
+        }
+        tbody {
+            font-size: 15px;
+            color:rgba(16, 24, 40, 1);
+            text-align: right;
+        }
+        footer thead {
+            text-align: left;
+        }
+        footer th {
+            border: none;
+        }
+        footer td {
+            border: none;
+        }
+        footer tr {
+            height: 24px;
+        }
+        footer thead, tbody {
+            text-align: left;
+        }
+        footer h2 {
+            margin-top: 15px;
+            font-size: 16px;
+            font-weight: 600;
+            color:rgba(16, 24, 40, 1);
+        }
+        footer p {
+            margin-top: 4px;
+            font-size: 15px;
+            color:rgba(102, 112, 133, 1);
+        }
+        footer address {
+            font-size: 15px;
+            color:rgba(102, 112, 133, 1);
+            text-align: right;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span>View in browser</span>
+            <img src="./images/logo.svg" alt="logo">
+            <h1>Functional Style</h1>
+            <p>Combine practicality and style effortlessly with our furniture, offering functional designs that enhance your living
+                space</p>
+        </div>
+    </header>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 70%; color:rgba(102, 112, 133, 1); text-align: left;">Item</td>
+                        <th style="width: 10%;">Qty</th>
+                        <th style="width: 20%;">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color:rgba(102, 112, 133, 1); text-align: left;">Elegant Feast</td>
+                        <td>2</td>
+                        <td>$499.99</td>
+                    </tr>
+                    <tr>
+                        <td style="color:rgba(102, 112, 133, 1); text-align: left;" >Modern Fusion</td>
+                        <td>2</td>
+                        <td>$699.99</td>
+                    </tr>
+                    <tr>
+                        <td style="color:rgba(102, 112, 133, 1); text-align: left;">Rustic Charm</td>
+                        <td>2</td>
+                        <td>$399.99</td>
+                    </tr>
+                    <tr>
+                        <td style="color:rgba(102, 112, 133, 1); text-align: left; font-size: 16px; font-weight: 600;">Total</td>
+                        <td>6</td>
+                        <td style="font-size: 16px; font-weight: 600;">$3194.99</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    <footer>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th><img src="./images/logo.svg" alt="logo"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><h2>Acme corporation</h2></td>
+                    </tr>
+                    <tr>
+                        <td><p>Think different</p></td>
+                        <td><address>123 Main Street Anytown, CA 12345</address></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </footer>
+</body>
+</html>
