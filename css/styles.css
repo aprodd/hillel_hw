@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Cera Pro';
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    font-size: 0px;
+}
+.header__wrapper {
+    margin-top: 30px;
+    padding: 0 0 18px;  
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+}   
+.header__nav {
+    display: inline-block;
+    width: calc(100% - 250px);
+    padding: 0 230px;
+    vertical-align: top;
+    margin-top: 8px;
+}
+.menu__item {
+    display: inline-block;
+}
+.menu__link.active {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(61, 61, 61, 1);
+    text-decoration: underline 3px rgba(70, 163, 88, 1);
+    text-underline-offset: 28px;
+}
+.menu__link {
+    padding-right: 50px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(61, 61, 61, 1);
+}
+.header__btn {
+    min-width: 100px;
+    padding: 8px 18px;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    vertical-align: top;
+    background: rgba(70, 163, 88, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.header__btn img {
+    vertical-align: middle;
+}
+.header__btn span {
+    vertical-align: middle;
+    font-family: 'Cera Pro';
+}
+
+/* section promo */
+
+.promo__wrapper {
+    margin-top: 12px;
+    background: rgba(245, 245, 245, 0.5);
+    position: relative;
+}
+.promo__text {
+    padding: 68px 0 82px 40px;
+    display: inline-block;
+}
+.promo__welcome {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(61, 61, 61, 1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.promo__title {
+    max-width: 530px;
+    margin-top: 7px;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    color: rgba(61, 61, 61, 1);
+    text-transform: uppercase;
+}
+.promo__title span {
+    color: rgba(70, 163, 88, 1);
+}
+.promo__description {
+    max-width: 550px;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(114, 114, 114, 1);
+}
+.promo__link {
+    display: inline-block;
+    padding: 12px 27px;
+    min-width: 140px;
+    min-height: 40px;
+    margin-top: 44px;
+    background: rgba(70, 163, 88, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.promo__images {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
