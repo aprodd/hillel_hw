@@ -69,7 +69,6 @@ body {
 .promo__wrapper {
     margin-top: 12px;
     background: rgba(245, 245, 245, 0.5);
-    position: relative;
 }
 .promo__text {
     padding: 68px 0 82px 40px;
@@ -118,6 +117,5 @@ body {
 }
 .promo__images {
     display: inline-block;
-    position: absolute;
-    right: 0;
+    float: right;
 }
