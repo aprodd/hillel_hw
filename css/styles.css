@@ -69,10 +69,13 @@ body {
 .promo__wrapper {
     margin-top: 12px;
     background: rgba(245, 245, 245, 0.5);
+    font-size: 0px;
 }
 .promo__text {
-    padding: 68px 0 82px 40px;
     display: inline-block;
+    width: calc(100% - 507px);
+    padding: 68px 0 82px 40px;
+    vertical-align: top;
 }
 .promo__welcome {
     font-size: 15px;
@@ -117,5 +120,4 @@ body {
 }
 .promo__images {
     display: inline-block;
-    float: right;
 }
