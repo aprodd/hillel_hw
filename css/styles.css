@@ -44,20 +44,15 @@ body {
     font-weight: 700;
     color: rgba(70, 163, 88, 1);
 }
-.catalog-content {
-    float: left;
-    width: 100%;
-}
 .catalog-menu {
     float: left;
 }
-.catalog-menu li {
-    float: left;
-}
 .catalog-link {
+    float: left;
+    min-width: 90px;
+    text-align: center;
     font-size: 15px;
     font-weight: 400;
-    margin-right: 40px;
     text-decoration: none;
     color: rgba(61, 61, 61, 1);
 }
@@ -67,9 +62,10 @@ body {
     text-decoration: underline 2px rgba(70, 163, 88, 1);
     text-underline-offset: 7px;
 }
-.catalog-link:last-of-type {
-    margin: 0;
+.catalog-link:first-child {
+    text-align: left;
 }
+
 .catalog-option {
     float: right;
 }
