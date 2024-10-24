@@ -49,21 +49,21 @@ body {
     color: rgba(114, 114, 114, 1);
     text-align: right;
 }
-.promo__product-link {
+.promo__product-btn {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 5px;
-    padding: 10px 25px;
+    padding: 10px 30px;
     min-width: 140px;
     min-height: 40px;
     font-weight: 500;
     background: rgba(70, 163, 88, 1);
     border-radius: 6px;
+    border: none;
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
 }
-.promo__product-link img {
+.promo__product-btn img {
     padding-top: 2px;
 }
 
