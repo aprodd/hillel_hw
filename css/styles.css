@@ -2,29 +2,35 @@
     box-sizing: border-box;
     font-family: 'Cera Pro';
 }
+
 body {
     font-family: 'Cera Pro';
     padding: 70px 0;
 }
+
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .promo {
     margin-bottom: 140px;
 }
+
 .promo__wrapper {
     display: flex;
     justify-content: space-between;
     gap: 40px 20px;
     flex-wrap: wrap;
 }
+
 .promo__product {
     display: flex;
     max-width: 590px;
     background: rgba(251, 251, 251, 1);
 }
+
 .promo__right-part {
     padding-top: 90px;
     padding-right: 15px;
@@ -32,6 +38,7 @@ body {
     flex-direction: column;
     align-items: flex-end;
 }
+
 .promo__product-title {
     margin-bottom: 10px;
     width: 150px;
@@ -42,6 +49,7 @@ body {
     color: rgba(61, 61, 61, 1);
     text-transform: uppercase;
 }
+
 .promo__product-description {
     margin-bottom: 25px;
     font-size: 14px;
@@ -49,6 +57,7 @@ body {
     color: rgba(114, 114, 114, 1);
     text-align: right;
 }
+
 .promo__product-btn {
     display: flex;
     align-items: center;
@@ -60,13 +69,15 @@ body {
     background: rgba(70, 163, 88, 1);
     border-radius: 6px;
     border: none;
+    cursor: pointer;
     color: rgba(255, 255, 255, 1);
 }
+
 .promo__product-btn img {
     padding-top: 2px;
 }
 
-    /* SECTION BLOG */
+/* SECTION BLOG */
 
 .blog_title {
     margin-bottom: 15px;
@@ -75,34 +86,41 @@ body {
     font-size: 30px;
     color: rgba(61, 61, 61, 1);
 }
+
 .blog_description {
     margin-bottom: 35px;
     font-size: 14px;
     text-align: center;
     color: rgba(114, 114, 114, 1);
 }
+
 .blog__wrapper {
     display: flex;
     justify-content: space-between;
     gap: 20px 40px;
     flex-wrap: wrap;
 }
+
 .blog__card {
     max-width: 270px;
 }
+
 .blog__card-head {
     width: 100%;
 }
+
 .blog__card-body {
     padding: 10px 30px 10px 15px;
     background: rgba(251, 251, 251, 1);
 }
+
 .blog__card-info {
     margin-bottom: 5px;
     font-size: 14px;
     font-weight: 500;
     color: rgba(70, 163, 88, 1);
 }
+
 .blog__card-title {
     max-width: 250px;
     margin-bottom: 5px;
@@ -112,12 +130,14 @@ body {
     line-height: 26px;
     color: rgba(61, 61, 61, 1);
 }
+
 .blog__card-description {
     margin-bottom: 10px;
     font-size: 14px;
     line-height: 22px;
     color: rgba(114, 114, 114, 1);
 }
+
 .blog__card-link {
     max-width: 110px;
     display: flex;
@@ -127,11 +147,11 @@ body {
     text-decoration: none;
     gap: 3px;
 }
+
 .blog__card-link:hover {
     color: rgba(70, 163, 88, 1);
 }
+
 .blog__card-link img {
     padding-top: 4px;
 }
-
-
